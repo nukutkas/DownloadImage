@@ -32,6 +32,9 @@
                                     <action selector="getImagePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Opf-6R-ktV"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="TEh-Uo-ow1">
+                                <rect key="frame" x="177.5" y="323.5" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -42,15 +45,18 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ky5-eK-F6i" secondAttribute="bottom" constant="20" id="9zL-9p-KLh"/>
                             <constraint firstItem="ky5-eK-F6i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="B5A-et-GsL"/>
                             <constraint firstItem="cPm-EC-LX3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="GG3-KO-nKr"/>
+                            <constraint firstItem="TEh-Uo-ow1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JQe-zm-DcD"/>
                             <constraint firstItem="PdE-uL-DIr" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="MDE-2d-xlp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cPm-EC-LX3" secondAttribute="trailing" constant="16" id="QwG-h5-swa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ky5-eK-F6i" secondAttribute="trailing" constant="16" id="WqL-KU-D3F"/>
                             <constraint firstItem="PdE-uL-DIr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Z1Z-76-UBe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cPm-EC-LX3" secondAttribute="bottom" constant="20" id="hsR-VQ-EWM"/>
                             <constraint firstItem="cPm-EC-LX3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rMn-gZ-Wbk"/>
+                            <constraint firstItem="TEh-Uo-ow1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uKR-3t-IZK"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="TEh-Uo-ow1" id="c6k-ia-gx1"/>
                         <outlet property="getImageButton" destination="ky5-eK-F6i" id="Fke-c6-CMa"/>
                         <outlet property="imageView" destination="PdE-uL-DIr" id="1s8-3g-aCa"/>
                         <outlet property="label" destination="cPm-EC-LX3" id="5dX-F2-UEo"/>
