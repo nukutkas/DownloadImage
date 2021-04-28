@@ -54,14 +54,46 @@
 		A83C301F2108401A00592AE4 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				A83C30202108401A00592AE4 /* AppDelegate.swift */,
-				A83C30222108401A00592AE4 /* ViewController.swift */,
-				A83C30242108401A00592AE4 /* Main.storyboard */,
-				A83C30272108401B00592AE4 /* Assets.xcassets */,
-				A83C30292108401B00592AE4 /* LaunchScreen.storyboard */,
-				A83C302C2108401B00592AE4 /* Info.plist */,
+				E5AD94AE2639FAEF00FB8FF8 /* ViewControllers */,
+				E5AD94AA2639FAB100FB8FF8 /* Storyboards */,
+				E5AD94AC2639FAE400FB8FF8 /* Supporting files */,
+				E5AD94AB2639FAC800FB8FF8 /* Sources */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		E5AD94AA2639FAB100FB8FF8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A83C30292108401B00592AE4 /* LaunchScreen.storyboard */,
+				A83C30242108401A00592AE4 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E5AD94AB2639FAC800FB8FF8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A83C30272108401B00592AE4 /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E5AD94AC2639FAE400FB8FF8 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				A83C30202108401A00592AE4 /* AppDelegate.swift */,
+				A83C302C2108401B00592AE4 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E5AD94AE2639FAEF00FB8FF8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A83C30222108401A00592AE4 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
